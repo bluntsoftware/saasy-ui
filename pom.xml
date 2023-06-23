@@ -19,7 +19,7 @@
         <version>2.2</version>
         <configuration>
           <username>antsle</username>
-          <password>stud1O4465</password>
+          <password>${env.TOMCAT_PASSWORD}</password>
           <url>https://saasy.bluntsoftware.com/manager/text</url>
           <path>/</path>
         </configuration>
